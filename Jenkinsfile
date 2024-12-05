@@ -37,7 +37,12 @@ pipeline {
             steps {
                 echo "Final Successful"
             }
-        }    
+        }   
+        stage('Awesome') {
+            steps {
+                echo "Awesome its com[leted"
+            }
+        }  
 
     }
 }
