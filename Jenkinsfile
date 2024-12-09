@@ -38,11 +38,7 @@ pipeline {
                 echo "Final Successful"
             }
         }   
-        stage('Awesome') {
-            steps {
-                echo "wesome this is completed finally"
-            }
-        }  
+        
 
     }
 }
